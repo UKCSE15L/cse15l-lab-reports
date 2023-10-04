@@ -16,4 +16,14 @@ I started with the working directory at the home directory. When I ran cd with a
 # 4.  ls with no arguments:
 <img width="504" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/96fde35c-4044-4c08-9e31-d17b4f65dd7c">
 
-I started with the working directory at the home directory. When I ran ls with no argument, it printed out the lecture1 directory as I would have expected. This is not an error since the command functioned as it would have if I had put my working directory as the argument
+I started with the working directory at the home directory. When I ran ls with no argument, it printed out the lecture1 directory as I would have expected. This is not an error since the command functioned as it would have if I had put my working directory as the argument.
+
+# 5.  ls with path to a directory as the argument:
+<img width="504" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/1dda3e20-b03a-4e2b-8b3d-9006d558a0be">
+
+I started with the working directory at the home directory. When I ran ls with a path to the lecture1 directory as the argument, it printed out the files under lecture1 as I would expect. This is not an error since the command had the expected output
+
+# 6.  ls with path to a file as the argument:
+<img width="504" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/9190fcbd-bb3e-4b9b-b8d3-97003e4f52af">
+
+I started with the working directory as the home directory. When I ran ls with a path to the Hello.class file as the argument, It printed out the path that I input. This seems to be an error since it shouldn't print anything at all since there are no files or directories under the file that I provided.
