@@ -36,9 +36,9 @@ I started out with the working directory as the home directory. When I ran cat w
 # 8.  cat with path to a directory as the argument:
 <img width="337" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/73030913-adb5-4e81-8c33-e5397e17231e">
 
-I started out with the working directory as the home directory. When I ran cat with a path to a directory as the argument, I receieved this output. The command function as intended and printed out an accurate message. This is not an error.
+I started out with the working directory as the home directory. When I ran cat with a path to a directory as the argument, I receieved this output. The command functioned as intended and printed out an accurate message. This is not an error.
 
 # 9.  cat with path to a file as the argument:
 <img width="916" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/6ada0461-b51e-4cb6-b677-3e5cfae60457">
 
-I started out with the working directory as the home directory. When I ran cat with a path to a file as the argument, I received this output. 
+I started out with the working directory as the home directory. When I ran cat with a path to a file as the argument, I received this output. I am sure that this is an error but do not know why this specific message was output.
