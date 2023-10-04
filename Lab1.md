@@ -27,3 +27,18 @@ I started with the working directory at the home directory. When I ran ls with a
 <img width="504" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/9190fcbd-bb3e-4b9b-b8d3-97003e4f52af">
 
 I started with the working directory as the home directory. When I ran ls with a path to the Hello.class file as the argument, It printed out the path that I input. This seems to be an error since it shouldn't print anything at all since there are no files or directories under the file that I provided.
+
+# 7.  cat with no arguments:
+<img width="200" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/aba9065a-cb66-4faa-a578-5062395ee592">
+
+I started out with the working directory as the home directory. When I ran cat with no arguments, the program just stopped working entirely. I was able to type whatever I wanted and had to forcefully make a new terminal. This was definitely an error since the program stopped working.
+
+# 8.  cat with path to a directory as the argument:
+<img width="337" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/73030913-adb5-4e81-8c33-e5397e17231e">
+
+I started out with the working directory as the home directory. When I ran cat with a path to a directory as the argument, I receieved this output. The command function as intended and printed out an accurate message. This is not an error.
+
+# 9.  cat with path to a file as the argument:
+<img width="916" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/6ada0461-b51e-4cb6-b677-3e5cfae60457">
+
+I started out with the working directory as the home directory. When I ran cat with a path to a file as the argument, I received this output. 
