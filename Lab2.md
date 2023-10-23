@@ -50,11 +50,11 @@ Here are two examples of me using /add-message. The first had the query ?s=Hello
 
 ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/0525b764-5930-41eb-a9f5-23041cf99946)
 
-For both examples, the handleRequest method was called to return the updated String which would then be printed to the screen. 
+For both examples, the `handleRequest` method was called to return the updated String which would then be printed to the screen. 
 
-The relevant arguments are the num integer which is incremented with every call and the holder String which is concatenated with every call with the newest string.
+The relevant arguments are the `num` integer which is incremented with every call and the `holder` String which is concatenated with every call with the newest string.
 
-For both of these requests, the num is incremented and the holder String is concatenated with the newest String with a newline added to the end of it.
+For both of these requests, the `num` is incremented and the `holder` String is concatenated with the newest String and a newline added to the end of it.
 
 
 **Part 2**
