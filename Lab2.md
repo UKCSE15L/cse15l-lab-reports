@@ -59,3 +59,8 @@ For both of these requests, the `num` is incremented and the `holder` String is 
 
 **Part 2**
 
+<img width="319" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/a6526be6-6380-47a0-83dd-8dff626129eb">
+
+The absolute path to the private key would be /Users/umark/.ssh.id_rsa
+
+The absolute path to the public key would be /Users/umark/.ssh.id_rsa.pub
