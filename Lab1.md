@@ -33,9 +33,6 @@ I started with the working directory as the `/home` directory. When I ran `ls` w
 
 I started out with the working directory as the `/home` directory. When I ran `cat` with no arguments, there was no output but no error message either. Instead, the terminal continued reading my inputs from my keyboard. I was able to stop this by hitting `Ctrl+D`. This is not an error, the `cat` command was simply reading inputs from the keyboard.
 
-
-the program just stopped working entirely. I was able to type whatever I wanted and had to forcefully make a new terminal. This was definitely an error since the program stopped working.
-
 # 8.  `cat` with path to a directory as the argument:
 <img width="337" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/73030913-adb5-4e81-8c33-e5397e17231e">
 
