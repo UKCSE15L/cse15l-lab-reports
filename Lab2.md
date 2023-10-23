@@ -67,3 +67,8 @@ The absolute path to the public key would be /Users/umark/.ssh.id_rsa.pub
 
 Here is me logging in with no password:
 <img width="759" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/fd9d587a-f51e-4072-b442-a137ec2bc49b">
+
+
+**Part 3**
+
+Most of what we've learned these past two weeks have been new to me. How to connect to a remote server, how to build a local server, how to navigate VSCode, how to set up SSH Keys, and I also learned how to connect to a vpn to access the UCSD servers from home. All of this information is new to me.
