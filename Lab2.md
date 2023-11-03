@@ -52,7 +52,9 @@ Here are two examples of me using /add-message. The first had the query ?s=Hello
 
 For both examples, the `handleRequest` method was called to return the updated String which would then be printed to the screen. 
 
-The relevant arguments are the `num` integer which is incremented with every call and the `holder` String which is concatenated with every call with the newest string.
+The 'handleRequest' method has a single argument, 'URI url', which is used to store the URL passed to this method. This URL is then processed inside the method to perform specific actions based on its path and query parameters.
+
+The relevant fields of the `Handler` class are the `num` integer which is incremented with every call and the `holder` String which is concatenated with every call with the newest string.
 
 For both of these requests, the `num` is incremented and the `holder` String is concatenated with the newest String and a newline added to the end of it.
 
