@@ -67,7 +67,7 @@ The absolute path to the private key would be /Users/umark/.ssh.id_rsa
 
 <img width="374" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/0e18e43a-768a-4286-929a-688c655eafbf">
 
-The absolute path to the public key would be /Users/umark/.ssh.id_rsa.pub
+The absolute path to the public key would be /home/linux/ieng6/cs15lfa23/cs15lfa23qo/.ssh/authorized_keys
 
 Here is me logging in with no password:
 <img width="759" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/fd9d587a-f51e-4072-b442-a137ec2bc49b">
