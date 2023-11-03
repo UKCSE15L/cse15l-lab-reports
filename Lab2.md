@@ -52,7 +52,7 @@ Here are two examples of me using /add-message. The first had the query ?s=Hello
 
 For both examples, the `handleRequest` method was called to return the updated String which would then be printed to the screen. 
 
-The 'handleRequest' method has a single argument, 'URI url', which is used to store the URL passed to this method. This URL is then processed inside the method to perform specific actions based on its path and query parameters.
+The `handleRequest` method has a single argument, `URI url`, which is used to store the URL passed to this method. This URL is then processed inside the method to perform specific actions based on its path and query parameters.
 
 The relevant fields of the `Handler` class are the `num` integer which is incremented with every call and the `holder` String which is concatenated with every call with the newest string.
 
