@@ -65,6 +65,8 @@ For both of these requests, the `num` is incremented and the `holder` String is 
 
 The absolute path to the private key would be /Users/umark/.ssh.id_rsa
 
+<img width="374" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/0e18e43a-768a-4286-929a-688c655eafbf">
+
 The absolute path to the public key would be /Users/umark/.ssh.id_rsa.pub
 
 Here is me logging in with no password:
