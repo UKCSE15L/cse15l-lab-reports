@@ -77,15 +77,15 @@ Source: man7.org
 
 2. `-type` This option allows you to choose the type of file to search for.
    
-	Example 1: `find ./technical -type f`. This command will find all regular files in the ./technical directory.
-	Example 2: `find ./technical -type d`. This command will find all directories in the ./technical directory.
+	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory.
+	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory.
 
 Source: How-To Geek
 
 3. `-mtime` This option finds files that were modified a certain amount of time ago.
    
-	Example 1: `find ./technical -mtime -7`: This command will find all files in the ./technical directory that were modified less than 7 days ago.
-	Example 2: `find ./technical -mtime +30`: This command will find all files in the ./technical directory that were modified more than 30 days ago.
+	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago.
+	Example 2: `find ./technical -mtime +30`: This command will find all files in the `./technical` directory that were modified more than 30 days ago.
 
 Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
