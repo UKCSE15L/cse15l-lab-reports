@@ -59,3 +59,5 @@ Fixed code:
     }
   }
 ```
+
+The problem was that the first elements in the array were simply being replaced by the last elements so by the time we wanted to replace the final elements with the original first elements, those first elements were overwritten by the final elements so they were just being repeated at the end. To fix this, we made a second empty array of the same size and copied the elements in reverse into the new array. Then, we looped through the original array and replaced every value with the appropriate value from the new array.
