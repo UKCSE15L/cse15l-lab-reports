@@ -109,8 +109,11 @@ I choose the `find` command.
 6. `-size` This option searches for files based on their size.
    
 	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte.
+	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/a6f4593c-e40c-4220-a97c-0b15ccf30692)
 
 	Example 2: `find ./technical -size -1M`. This command will find the that are smaller than 1 Megabyte.
+	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/4f4b1d25-b701-49ac-9f71-9034218e1f26)
 
 
+ 	Second contains all the files and first contains none due to them being smaller files
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
