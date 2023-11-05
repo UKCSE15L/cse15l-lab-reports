@@ -72,25 +72,28 @@ I choose the `find` command.
    
 	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory.
 
-	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `research`
+	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"`
 
-Source: [man7.org](https://www.man7.org/linux/man-pages/man1/find.1.html) (Found by Googling "find command name option")
 
-2. `-type` This option allows you to choose the type of file to search for.
+	Source: [man7.org](https://www.man7.org/linux/man-pages/man1/find.1.html) (Found by Googling "find command name option")
+
+3. `-type` This option allows you to choose the type of file to search for.
    
 	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory.
 
 	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory.
 
-Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples (Found by Googling "how to use find command linux")
 
-3. `-mtime` This option finds files that were modified a certain amount of time ago.
+	Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples (Found by Googling "how to use find command linux")
+
+4. `-mtime` This option finds files that were modified a certain amount of time ago.
    
 	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago.
 
 	Example 2: `find ./technical -mtime +30`: This command will find all files in the `./technical` directory that were modified more than 30 days ago.
 
-Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
+
+	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
 
 5. `-size` This option searches for files based on their size.
    
@@ -98,4 +101,5 @@ Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-th
 
 	Example 2: `find ./technical -size -1M`. This command will find the that are smaller than 1 Megabyte.
 
-Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
+
+	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
