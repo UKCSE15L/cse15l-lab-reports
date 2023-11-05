@@ -91,7 +91,7 @@ Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-th
 
 5. `-size` This option searches for files based on their size.
    
-	Example 1: find ./technical -size +1M: This command will find all files in the ./technical directory that are larger than 1 Megabyte.
-	Example 2: find ./technical -size -1M: This command will find all files in the ./technical directory that are smaller than 1 Megabyte.
+	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte.
+	Example 2: `find ./technical -size -1M`. This command will find the that are smaller than 1 Megabyte.
 
 Source: PhoenixNAP KB
