@@ -32,6 +32,10 @@ Here is an example of a valid test case:
 	}
 ```
 
+Here is the output for succesful test cases:
+
+<img width="174" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/4e365263-15a7-4741-9873-74f5e198636d">
+
 
 Previous (buggy) code: 
 ``` java
