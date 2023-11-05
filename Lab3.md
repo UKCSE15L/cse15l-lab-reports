@@ -66,13 +66,18 @@ The problem was that the first elements in the array were simply being replaced 
 
 **PART 2**
 
+
+
 I choose the `find` command.
 
 1. `-name` This option searches for files by name
    
 	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory.
+ 	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/650a39c9-e4c7-4190-aa93-ab8533c5dee4)
 
-	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"`
+
+	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name
+	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/10136da1-9603-422e-9eb1-dce84fa32603)
 
 
 	Source: [man7.org](https://www.man7.org/linux/man-pages/man1/find.1.html) (Found by Googling "find command name option")
@@ -80,22 +85,28 @@ I choose the `find` command.
 3. `-type` This option allows you to choose the type of file to search for.
    
 	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory.
+ 	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/b97ca7f2-5aca-4ba0-8e2b-87ffb232e489)
+
 
 	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory.
+	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/adc65efb-3588-4f0e-ba19-955aacebcb9a)
 
 
 	Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples (Found by Googling "how to use find command linux")
 
-4. `-mtime` This option finds files that were modified a certain amount of time ago.
+5. `-mtime` This option finds files that were modified a certain amount of time ago.
    
 	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago.
+	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/75d652fd-44b6-4772-9481-f0b2d3fa4357)
 
 	Example 2: `find ./technical -mtime +30`: This command will find all files in the `./technical` directory that were modified more than 30 days ago.
+	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/c3a9ae96-4661-4268-94d5-f515b3d4a25f)
 
 
+ 	First one contained all the files since they were downloaded recently and second contained no files for the same reason
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
 
-5. `-size` This option searches for files based on their size.
+6. `-size` This option searches for files based on their size.
    
 	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte.
 
