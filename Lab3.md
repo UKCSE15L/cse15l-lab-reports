@@ -19,6 +19,9 @@ Here is the code I used to find this:
 ```
 
 The output of this test would be:
+<img width="1044" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/d28d5393-a5a0-4ed1-b40c-66ac29b7927a">
+(Ran through Test Explorer for convenience)
+
 
 Previous (buggy) code: 
 ``` java
