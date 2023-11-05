@@ -61,3 +61,26 @@ Fixed code:
 ```
 
 The problem was that the first elements in the array were simply being replaced by the last elements so by the time we wanted to replace the final elements with the original first elements, those first elements were overwritten by the final elements so they were just being repeated at the end. To fix this, we made a second empty array of the same size and copied the elements in reverse into the new array. Then, we looped through the original array and replaced every value with the appropriate value from the new array.
+
+
+
+**PART 2**
+
+I choose the `find` command.
+
+1. `-name` This option searches for files by name
+Example 1: `find ./technical -name "*.txt"`.  This command will find all files with the .txt extension in the ./technical directory.
+Example 2: find ./technical -name "report*": This command will find all files that start with report in the ./technical directory.
+Source: man7.org
+-type: This option allows you to specify the type of file to search for. The argument f is for regular files and d is for directories.
+Example 1: find ./technical -type f: This command will find all regular files in the ./technical directory.
+Example 2: find ./technical -type d: This command will find all directories in the ./technical directory.
+Source: How-To Geek
+-mtime: This option allows you to find files that were modified certain days ago. A + sign before the number means “more than n” and a - sign means “less than n”.
+Example 1: find ./technical -mtime -7: This command will find all files in the ./technical directory that were modified less than 7 days ago.
+Example 2: find ./technical -mtime +30: This command will find all files in the ./technical directory that were modified more than 30 days ago.
+Source: Linuxize
+-size: This option allows you to search for files based on their size. A + sign before the number means “more than n” and a - sign means “less than n”.
+Example 1: find ./technical -size +1M: This command will find all files in the ./technical directory that are larger than 1 Megabyte.
+Example 2: find ./technical -size -1M: This command will find all files in the ./technical directory that are smaller than 1 Megabyte.
+Source: PhoenixNAP KB
