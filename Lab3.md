@@ -22,6 +22,16 @@ The output of this test would be:
 <img width="1044" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/d28d5393-a5a0-4ed1-b40c-66ac29b7927a">
 (Ran through Test Explorer for convenience)
 
+Here is an example of a valid test case:
+``` java
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+
 
 Previous (buggy) code: 
 ``` java
