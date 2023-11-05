@@ -32,9 +32,10 @@ Here is an example of a valid test case:
 	}
 ```
 
-Here is the output for succesful test cases:
+Here is the output for both these test cases run together:
 
-<img width="174" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/4e365263-15a7-4741-9873-74f5e198636d">
+<img width="698" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/338fca85-ccd8-45f8-83a2-bfb759894ea1">
+
 
 
 Previous (buggy) code: 
