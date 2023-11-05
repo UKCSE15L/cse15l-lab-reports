@@ -69,23 +69,29 @@ The problem was that the first elements in the array were simply being replaced 
 I choose the `find` command.
 
 1. `-name` This option searches for files by name
-Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory.
-Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `research`
+   
+	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory.
+	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `research`
 
 Source: man7.org
 
-2. `-type` This option allows you to specify the type of file to search for. The argument f is for regular files and d is for directories.
-Example 1: `find ./technical -type f`. This command will find all regular files in the ./technical directory.
-Example 2: `find ./technical -type d`. This command will find all directories in the ./technical directory.
+2. `-type` This option allows you to choose the type of file to search for.
+   
+	Example 1: `find ./technical -type f`. This command will find all regular files in the ./technical directory.
+	Example 2: `find ./technical -type d`. This command will find all directories in the ./technical directory.
 
 Source: How-To Geek
 
-3. `-mtime` This option allows you to find files that were modified certain days ago.
-Example 1: find ./technical -mtime -7: This command will find all files in the ./technical directory that were modified less than 7 days ago.
-Example 2: find ./technical -mtime +30: This command will find all files in the ./technical directory that were modified more than 30 days ago.
-Source: Linuxize
+3. `-mtime` This option finds files that were modified a certain amount of time ago.
+   
+	Example 1: `find ./technical -mtime -7`: This command will find all files in the ./technical directory that were modified less than 7 days ago.
+	Example 2: `find ./technical -mtime +30`: This command will find all files in the ./technical directory that were modified more than 30 days ago.
 
-4. `-size` This option searches for files based on their size. A + sign before the number means “more than n” and a - sign means “less than n”.
-Example 1: find ./technical -size +1M: This command will find all files in the ./technical directory that are larger than 1 Megabyte.
-Example 2: find ./technical -size -1M: This command will find all files in the ./technical directory that are smaller than 1 Megabyte.
+Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+
+5. `-size` This option searches for files based on their size.
+   
+	Example 1: find ./technical -size +1M: This command will find all files in the ./technical directory that are larger than 1 Megabyte.
+	Example 2: find ./technical -size -1M: This command will find all files in the ./technical directory that are smaller than 1 Megabyte.
+
 Source: PhoenixNAP KB
