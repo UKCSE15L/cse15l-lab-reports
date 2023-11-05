@@ -119,7 +119,7 @@ I choose the `find` command.
 
 	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/a6f4593c-e40c-4220-a97c-0b15ccf30692)
 
-	Example 2: `find ./technical -size -1M`. This command will find the that are smaller than 1 Megabyte.
+	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.
 
 	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/4f4b1d25-b701-49ac-9f71-9034218e1f26)
 
