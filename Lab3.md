@@ -159,6 +159,7 @@ I choose the `find` command.
  	```
 
 	Source: [man7.org](https://www.man7.org/linux/man-pages/man1/find.1.html)
+
 	(Found by Googling "find command name option")
 
 3. `-type` This option allows you to choose the type of file to search for.
@@ -210,9 +211,10 @@ I choose the `find` command.
 
 
 	Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples
+
 	(Found by Googling "how to use find command linux")
 
-4. `-mtime` This option finds files that were modified a certain amount of time ago.
+5. `-mtime` This option finds files that were modified a certain amount of time ago.
    
 	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago. This command is useful for recursively 	finding and listing all files modified within the past week inside of a given directory. 
 
@@ -249,9 +251,10 @@ I choose the `find` command.
  	First one contained no files since they were downloaded over a week ago, and the second contained all the files for the same reason.
 
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
-	(Found by Googling "linux find command options")
+	
+ 	(Found by Googling "linux find command options")
 
-5. `-size` This option searches for files based on their size.
+6. `-size` This option searches for files based on their size.
    
 	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte. This command is useful for recursively finding 	and listing all the files inside of a given directory that are bigger than 1 Megabyte
 
@@ -296,4 +299,5 @@ I choose the `find` command.
  	Second contains all the files and first contains none due to all the files in the `./technical` directory being smaller files.
 
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+
 	(Found by Googling "linux find command options")
