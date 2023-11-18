@@ -86,7 +86,6 @@ I choose the `find` command.
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
  	```
-  
   	umark@Umars-Laptop docsearch % find ./technical -name "*.txt"
 	./technical/plos/journal.pbio.0020187.txt
 	./technical/plos/pmed.0020116.txt
@@ -116,8 +115,7 @@ I choose the `find` command.
 	./technical/plos/journal.pbio.0020068.txt
 	./technical/plos/journal.pbio.0020054.txt
 	./technical/plos/journal.pbio.0020040.txt
-  
- 	 ```
+  	```
 
 
 	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name. This command is useful for recursively locating and listing all 		files in a given directory that contain a certain word or phrase 
