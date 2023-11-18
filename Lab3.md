@@ -258,7 +258,7 @@ I choose the `find` command.
   	umark@Umars-Laptop docsearch % find ./technical -size +1M
   	```
 
-	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.
+	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.This command is useful for recursively finding and listing all the files 	inside of a given directory that are smaller than 1 Megabyte
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen))
 
@@ -290,6 +290,6 @@ I choose the `find` command.
 	./technical/plos/journal.pbio.0020068.txt
  	```
 
- 	Second contains all the files and first contains none due to them being smaller files.
+ 	Second contains all the files and first contains none due to all the files in the `./technical` directory being smaller files.
 
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
