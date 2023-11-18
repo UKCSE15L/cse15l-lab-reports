@@ -167,7 +167,7 @@ I choose the `find` command.
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 	```
  	umark@Umars-Laptop docsearch % find ./technical -type f
-	 ./technical/plos/journal.pbio.0020187.txt
+	./technical/plos/journal.pbio.0020187.txt
 	./technical/plos/pmed.0020116.txt
 	./technical/plos/pmed.0020102.txt
 	./technical/plos/journal.pbio.0020150.txt
@@ -212,20 +212,43 @@ I choose the `find` command.
 
 3. `-mtime` This option finds files that were modified a certain amount of time ago.
    
-	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago.
+	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago. This command is useful for recursively 	finding and listing all files modified within the past week inside of a given directory. 
 
-	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/75d652fd-44b6-4772-9481-f0b2d3fa4357)
+	Output: (The output was empty since there were no files modified within the past 7 days)
 
-	Example 2: `find ./technical -mtime +30`: This command will find all files in the `./technical` directory that were modified more than 30 days ago.
+	```
+ 	umark@Umars-Laptop docsearch % find ./technical -mtime -7
+ 	```
 
-	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/c3a9ae96-4661-4268-94d5-f515b3d4a25f)
+	Example 2: `find ./technical -mtime +7`: This command will find all files in the `./technical` directory that were modified more than 7 days ago. This command is useful for recursively 	finding and listing all files modified before the past week inside of a given directory. 
 
+	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
- 	First one contained all the files since they were downloaded recently and second contained no files for the same reason.
+	```
+ 	umark@Umars-Laptop docsearch % find ./technical -mtime +7
+ 	./technical/plos/pmed.0020102.txt
+	./technical/plos/journal.pbio.0020150.txt
+	./technical/plos/pmed.0020062.txt
+	./technical/plos/pmed.0020274.txt
+	./technical/plos/journal.pbio.0020232.txt
+	./technical/plos/journal.pbio.0030021.txt
+	./technical/plos/journal.pbio.0020224.txt
+	./technical/plos/pmed.0020048.txt
+	./technical/plos/pmed.0020060.txt
+	./technical/plos/pmed.0020074.txt
+	./technical/plos/journal.pbio.0020146.txt
+	./technical/plos/pmed.0020114.txt
+	./technical/plos/pmed.0010028.txt
+	./technical/plos/journal.pbio.0020350.txt
+	./technical/plos/journal.pbio.0020190.txt
+	./technical/plos/pmed.0010029.txt
+ 	```
+
+ 	First one contained no files since they were over a week ago, and second contained all the files for the same reason.
 
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
 
-4. `-size` This option searches for files based on their size.
+5. `-size` This option searches for files based on their size.
    
 	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte.
 
