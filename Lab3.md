@@ -121,7 +121,7 @@ I choose the `find` command.
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 	```
-	 umark@Umars-Laptop docsearch % find ./technical -name "*research*"
+	umark@Umars-Laptop docsearch % find ./technical -name "*research*"
 	./technical/biomed/gb-2001-2-4-research0010.txt
 	./technical/biomed/gb-2001-2-4-research0011.txt
 	./technical/biomed/gb-2002-3-9-research0043.txt
