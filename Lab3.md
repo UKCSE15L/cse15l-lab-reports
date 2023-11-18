@@ -32,7 +32,7 @@ Here is an example of a valid test case:
 	}
 ```
 
-Here is the output of the code passing the test case of the non-failure inducing input:
+Here is the output of the code passing the test cases of the non-failure inducing inputs:
 ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/65ccee6b-4ed1-4e8d-a04b-b5817ec897b9)
 
 
