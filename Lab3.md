@@ -162,7 +162,7 @@ I choose the `find` command.
 
 2. `-type` This option allows you to choose the type of file to search for.
    
-	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a 	given directory.
+	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a 	given directory and the directories inside of it.
 
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 	```
@@ -188,9 +188,24 @@ I choose the `find` command.
 	./technical/plos/pmed.0020115.txt
 	```
  
-	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory.
+	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory. This command is useful if you need to recursively list all the directories 	inside and including a given directory while ignoring the files inside of it.
 
-	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/adc65efb-3588-4f0e-ba19-955aacebcb9a)
+	Output: (This is the entire output)
+
+	```
+	umark@Umars-Laptop docsearch % find ./technical -type d
+	./technical
+	./technical/government
+	./technical/government/About_LSC
+	./technical/government/Env_Prot_Agen
+	./technical/government/Alcohol_Problems
+	./technical/government/Gen_Account_Office
+	./technical/government/Post_Rate_Comm
+	./technical/government/Media
+	./technical/plos
+	./technical/biomed
+	./technical/911report
+	```
 
 
 	Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples (Found by Googling "how to use find command linux")
