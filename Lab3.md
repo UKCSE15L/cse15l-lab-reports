@@ -85,7 +85,7 @@ I choose the `find` command.
 
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
- 	```
+ 	```bash
   	umark@Umars-Laptop docsearch % find ./technical -name "*.txt"
 	./technical/plos/journal.pbio.0020187.txt
 	./technical/plos/pmed.0020116.txt
@@ -121,7 +121,7 @@ I choose the `find` command.
 	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name. This command is useful for recursively locating and listing all 		files in a given directory that contain a certain word or phrase 
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
-	```
+	```bash
 	umark@Umars-Laptop docsearch % find ./technical -name "*research*"
 	./technical/biomed/gb-2001-2-4-research0010.txt
 	./technical/biomed/gb-2001-2-4-research0011.txt
@@ -168,7 +168,7 @@ I choose the `find` command.
 	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a 	given directory and the directories inside of it.
 
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
-	```
+	```bash
  	umark@Umars-Laptop docsearch % find ./technical -type f
 	./technical/plos/journal.pbio.0020187.txt
 	./technical/plos/pmed.0020116.txt
@@ -195,7 +195,7 @@ I choose the `find` command.
 
 	Output: (This is the entire output)
 
-	```
+	```bash
 	umark@Umars-Laptop docsearch % find ./technical -type d
 	./technical
 	./technical/government
@@ -221,7 +221,7 @@ I choose the `find` command.
 
 	Output: (The output was empty since there were no files modified within the past 7 days)
 
-	```
+	```bash
  	umark@Umars-Laptop docsearch % find ./technical -mtime -7
  	```
 
@@ -229,7 +229,7 @@ I choose the `find` command.
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
-	```
+	```bash
  	umark@Umars-Laptop docsearch % find ./technical -mtime +7
  	./technical/plos/pmed.0020102.txt
 	./technical/plos/journal.pbio.0020150.txt
@@ -261,7 +261,7 @@ I choose the `find` command.
 
 	Output: (The output is empty since there are no files inside the `./technical` directory that exceed 1 Megabyte in size)
 
- 	```
+ 	```bash
   	umark@Umars-Laptop docsearch % find ./technical -size +1M
   	```
 
@@ -269,8 +269,8 @@ I choose the `find` command.
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen))
 
-	```
- 	umark@Umars-Laptop docsearch % find ./technical -size -1M;
+	```bash
+ 	umark@Umars-Laptop docsearch % find ./technical -size -1M
 	./technical/plos/pmed.0020102.txt
 	./technical/plos/journal.pbio.0020150.txt
 	./technical/plos/pmed.0020062.txt
