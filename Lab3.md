@@ -158,9 +158,10 @@ I choose the `find` command.
 	./technical/biomed/gb-2001-2-9-research0037.txt
  	```
 
-	Source: [man7.org](https://www.man7.org/linux/man-pages/man1/find.1.html) (Found by Googling "find command name option")
+	Source: [man7.org](https://www.man7.org/linux/man-pages/man1/find.1.html)
+	(Found by Googling "find command name option")
 
-2. `-type` This option allows you to choose the type of file to search for.
+3. `-type` This option allows you to choose the type of file to search for.
    
 	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a 	given directory and the directories inside of it.
 
@@ -208,9 +209,10 @@ I choose the `find` command.
 	```
 
 
-	Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples (Found by Googling "how to use find command linux")
+	Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples
+	(Found by Googling "how to use find command linux")
 
-3. `-mtime` This option finds files that were modified a certain amount of time ago.
+4. `-mtime` This option finds files that were modified a certain amount of time ago.
    
 	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago. This command is useful for recursively 	finding and listing all files modified within the past week inside of a given directory. 
 
@@ -246,7 +248,8 @@ I choose the `find` command.
 
  	First one contained no files since they were downloaded over a week ago, and the second contained all the files for the same reason.
 
-	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
+	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+	(Found by Googling "linux find command options")
 
 5. `-size` This option searches for files based on their size.
    
@@ -292,4 +295,5 @@ I choose the `find` command.
 
  	Second contains all the files and first contains none due to all the files in the `./technical` directory being smaller files.
 
-	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
+	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+	(Found by Googling "linux find command options")
