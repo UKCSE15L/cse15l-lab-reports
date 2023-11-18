@@ -32,6 +32,10 @@ Here is an example of a valid test case:
 	}
 ```
 
+Here is the output of the code passing the test case of the non-failure inducing input:
+![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/65ccee6b-4ed1-4e8d-a04b-b5817ec897b9)
+
+
 Here is the output for both these test cases run together:
 
 <img width="698" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/338fca85-ccd8-45f8-83a2-bfb759894ea1">
