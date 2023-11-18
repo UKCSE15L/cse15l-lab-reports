@@ -82,7 +82,39 @@ I choose the `find` command.
    
 	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory.
 
- 	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/650a39c9-e4c7-4190-aa93-ab8533c5dee4)
+ 	Output: (This is just a sample of the output as the actual output is way too big to fit on the screen)
+
+ 	```
+  	umark@Umars-Laptop docsearch % find ./technical -name "*.txt"
+	./technical/plos/journal.pbio.0020187.txt
+	./technical/plos/pmed.0020116.txt
+	./technical/plos/pmed.0020102.txt
+	./technical/plos/journal.pbio.0020150.txt
+	./technical/plos/pmed.0020062.txt
+	./technical/plos/pmed.0020274.txt
+	./technical/plos/journal.pbio.0020232.txt
+	./technical/plos/journal.pbio.0030021.txt
+	./technical/plos/journal.pbio.0020224.txt
+	./technical/plos/pmed.0020048.txt
+	./technical/plos/pmed.0020060.txt
+	./technical/plos/pmed.0020074.txt
+	./technical/plos/journal.pbio.0020146.txt
+	./technical/plos/pmed.0020114.txt
+	./technical/plos/pmed.0010028.txt
+	./technical/plos/journal.pbio.0020350.txt
+	./technical/plos/journal.pbio.0020190.txt
+	./technical/plos/pmed.0010029.txt
+	./technical/plos/pmed.0020115.txt
+	./technical/plos/journal.pbio.0020147.txt
+	./technical/plos/pmed.0020075.txt
+	./technical/plos/pmed.0020061.txt
+	./technical/plos/pmed.0020210.txt
+	./technical/plos/pmed.0020238.txt
+	./technical/plos/journal.pbio.0030051.txt
+	./technical/plos/journal.pbio.0020068.txt
+	./technical/plos/journal.pbio.0020054.txt
+	./technical/plos/journal.pbio.0020040.txt
+  	```
 
 
 	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name
