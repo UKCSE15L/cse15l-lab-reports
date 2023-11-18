@@ -244,20 +244,51 @@ I choose the `find` command.
 	./technical/plos/pmed.0010029.txt
  	```
 
- 	First one contained no files since they were over a week ago, and second contained all the files for the same reason.
+ 	First one contained no files since they were downloaded over a week ago, and the second contained all the files for the same reason.
 
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
 
 5. `-size` This option searches for files based on their size.
    
-	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte.
+	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte. This command is useful for recursively finding 	and listing all the files inside of a given directory that are bigger than 1 Megabyte
 
-	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/a6f4593c-e40c-4220-a97c-0b15ccf30692)
+	Output: (The output is empty since there are no files inside the `./technical` directory that exceed 1 Megabyte in size)
+
+ 	```
+  	umark@Umars-Laptop docsearch % find ./technical -size +1M
+  	```
 
 	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.
 
-	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/4f4b1d25-b701-49ac-9f71-9034218e1f26)
+	Output: (This is just a sample of the output as the actual output is too big to fit on the screen))
 
+	```
+ 	umark@Umars-Laptop docsearch % find ./technical -size -1M;
+	./technical/plos/pmed.0020102.txt
+	./technical/plos/journal.pbio.0020150.txt
+	./technical/plos/pmed.0020062.txt
+	./technical/plos/pmed.0020274.txt
+	./technical/plos/journal.pbio.0020232.txt
+	./technical/plos/journal.pbio.0030021.txt
+	./technical/plos/journal.pbio.0020224.txt
+	./technical/plos/pmed.0020048.txt
+	./technical/plos/pmed.0020060.txt
+	./technical/plos/pmed.0020074.txt
+	./technical/plos/journal.pbio.0020146.txt
+	./technical/plos/pmed.0020114.txt
+	./technical/plos/pmed.0010028.txt
+	./technical/plos/journal.pbio.0020350.txt
+	./technical/plos/journal.pbio.0020190.txt
+	./technical/plos/pmed.0010029.txt
+	./technical/plos/pmed.0020115.txt
+	./technical/plos/journal.pbio.0020147.txt
+	./technical/plos/pmed.0020075.txt
+	./technical/plos/pmed.0020061.txt
+	./technical/plos/pmed.0020210.txt
+	./technical/plos/pmed.0020238.txt
+	./technical/plos/journal.pbio.0030051.txt
+	./technical/plos/journal.pbio.0020068.txt
+ 	```
 
  	Second contains all the files and first contains none due to them being smaller files.
 
