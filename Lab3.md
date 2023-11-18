@@ -60,6 +60,10 @@ Fixed code:
   }
 ```
 
+Here is the output of the fixed code passing the test cases including the case of the failure inducing input
+![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/a5a298f7-4d3b-47c7-a7d6-3852089c13bb)
+
+
 The problem was that the first elements in the array were simply being replaced by the last elements so by the time we wanted to replace the final elements with the original first elements, those first elements were overwritten by the final elements so they were just being repeated at the end. To fix this, we made a second empty array of the same size and copied the elements in reverse into the new array. Then, we looped through the original array and replaced every value with the appropriate value from the new array.
 
 
