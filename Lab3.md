@@ -80,9 +80,9 @@ I choose the `find` command.
 
 1. `-name` This option searches for files by name
    
-	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory.
+	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory. This command is useful for quickly recursively locating and listing all 	the text files in a given directory. 
 
- 	Output: (This is just a sample of the output as the actual output is way too big to fit on the screen)
+ 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
  	```
   	umark@Umars-Laptop docsearch % find ./technical -name "*.txt"
@@ -117,20 +117,77 @@ I choose the `find` command.
   	```
 
 
-	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name
+	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name. This command is useful for recursively locating and listing all 		files in a given directory that contain a certain word or phrase 
 
-	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/10136da1-9603-422e-9eb1-dce84fa32603)
-
+	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
+	```
+	 umark@Umars-Laptop docsearch % find ./technical -name "*research*"
+	./technical/biomed/gb-2001-2-4-research0010.txt
+	./technical/biomed/gb-2001-2-4-research0011.txt
+	./technical/biomed/gb-2002-3-9-research0043.txt
+	./technical/biomed/gb-2001-2-7-research0025.txt
+	./technical/biomed/gb-2002-3-7-research0032.txt
+	./technical/biomed/gb-2001-2-4-research0012.txt
+	./technical/biomed/gb-2001-2-7-research0024.txt
+	./technical/biomed/gb-2001-2-3-research0008.txt
+	./technical/biomed/gb-2002-3-9-research0046.txt
+	./technical/biomed/gb-2002-3-7-research0037.txt
+	./technical/biomed/gb-2001-2-8-research0027.txt
+	./technical/biomed/gb-2001-2-11-research0046.txt
+	./technical/biomed/gb-2001-2-8-research0032.txt
+	./technical/biomed/gb-2002-3-7-research0036.txt
+	./technical/biomed/gb-2002-3-9-research0051.txt
+	./technical/biomed/gb-2002-3-9-research0045.txt
+	./technical/biomed/gb-2001-2-8-research0030.txt
+	./technical/biomed/gb-2001-2-4-research0014.txt
+	./technical/biomed/gb-2001-2-11-research0045.txt
+	./technical/biomed/gb-2002-3-7-research0035.txt
+	./technical/biomed/gb-2001-2-8-research0031.txt
+	./technical/biomed/gb-2002-3-9-research0044.txt
+	./technical/biomed/gb-2002-3-2-research0008.txt
+	./technical/biomed/gb-2002-3-11-research0059.txt
+	./technical/biomed/gb-2002-3-11-research0065.txt
+	./technical/biomed/gb-2001-2-10-research0041.txt
+	./technical/biomed/gb-2002-3-8-research0040.txt
+	./technical/biomed/gb-2001-2-9-research0035.txt
+	./technical/biomed/gb-2002-3-12-research0085.txt
+	./technical/biomed/gb-2002-3-2-research0009.txt
+	./technical/biomed/gb-2002-3-12-research0087.txt
+	./technical/biomed/gb-2002-3-12-research0078.txt
+	./technical/biomed/gb-2001-2-6-research0018.txt
+	./technical/biomed/gb-2001-2-9-research0037.txt
+ 	```
 
 	Source: [man7.org](https://www.man7.org/linux/man-pages/man1/find.1.html) (Found by Googling "find command name option")
 
-3. `-type` This option allows you to choose the type of file to search for.
+2. `-type` This option allows you to choose the type of file to search for.
    
-	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory.
+	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a 	given directory.
 
- 	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/b97ca7f2-5aca-4ba0-8e2b-87ffb232e489)
-
-
+ 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
+	```
+ 	umark@Umars-Laptop docsearch % find ./technical -type f
+	 ./technical/plos/journal.pbio.0020187.txt
+	./technical/plos/pmed.0020116.txt
+	./technical/plos/pmed.0020102.txt
+	./technical/plos/journal.pbio.0020150.txt
+	./technical/plos/pmed.0020062.txt
+	./technical/plos/pmed.0020274.txt
+	./technical/plos/journal.pbio.0020232.txt
+	./technical/plos/journal.pbio.0030021.txt
+	./technical/plos/journal.pbio.0020224.txt
+	./technical/plos/pmed.0020048.txt
+	./technical/plos/pmed.0020060.txt
+	./technical/plos/pmed.0020074.txt
+	./technical/plos/journal.pbio.0020146.txt
+	./technical/plos/pmed.0020114.txt
+	./technical/plos/pmed.0010028.txt
+	./technical/plos/journal.pbio.0020350.txt
+	./technical/plos/journal.pbio.0020190.txt
+	./technical/plos/pmed.0010029.txt
+	./technical/plos/pmed.0020115.txt
+	```
+ 
 	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory.
 
 	Output: ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/adc65efb-3588-4f0e-ba19-955aacebcb9a)
@@ -138,7 +195,7 @@ I choose the `find` command.
 
 	Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples (Found by Googling "how to use find command linux")
 
-5. `-mtime` This option finds files that were modified a certain amount of time ago.
+3. `-mtime` This option finds files that were modified a certain amount of time ago.
    
 	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago.
 
@@ -153,7 +210,7 @@ I choose the `find` command.
 
 	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/) (Found by Googling "linux find command options")
 
-7. `-size` This option searches for files based on their size.
+4. `-size` This option searches for files based on their size.
    
 	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte.
 
