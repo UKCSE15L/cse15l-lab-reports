@@ -215,7 +215,7 @@ umark@Umars-Laptop docsearch % find ./technical -type d
 ```
 
 
-Source: [geeksforgeeks.org]https://www.geeksforgeeks.org/find-command-in-linux-with-examples
+Source: [geeksforgeeks.org](https://www.geeksforgeeks.org/find-command-in-linux-with-examples)
 
 (Found by Googling "how to use find command linux")
 
