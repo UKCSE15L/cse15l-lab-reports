@@ -34,6 +34,5 @@ Output of succesful tests:
 Step 9: First, I did `git add ListExamples.java` to add the `ListExamples.java` to my staging area. The, I wrote the command `git commit -m "Fixed ListExamples.java file"` Which then added the ListExamples.java file to my local repository with the message `"Fixed ListExamples.java file"`. I then did the `git status` command to make sure that the `ListExamples.java` file was no longer in the staging area. Finally, I did the `git push` command to push the updated `ListExamples.java` file to my forked repository.
 
 Output:
-
 ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/fb03333f-813d-4917-ba35-e7af8151407e)
 
