@@ -26,4 +26,9 @@ This moves the cursor down from the starting position and to the right until it 
 Here is the corrected code:
 ![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/8bfef72e-d1a3-46c9-9382-f7173a0d6a2d)
 
-I then did `ctrl-R` and typed `bash` and then hit enter which ran the `bash test.sh` command from earlier.
+Step 8: I then did `ctrl-R` and typed `bash` and then hit enter which ran the `bash test.sh` command from earlier. The tests were then succesful.
+
+Output of succesful tests:
+![image](https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/07752e5f-9805-45a0-8a6d-e24b09296180)
+
+Step 9:
