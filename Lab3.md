@@ -85,6 +85,7 @@ I choose the `find` command.
 
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
+
  	```bash
   	umark@Umars-Laptop docsearch % find ./technical -name "*.txt"
 	./technical/plos/journal.pbio.0020187.txt
@@ -121,6 +122,8 @@ I choose the `find` command.
 	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name. This command is useful for recursively locating and listing all 		files in a given directory that contain a certain word or phrase 
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
+
+
 	```bash
 	umark@Umars-Laptop docsearch % find ./technical -name "*research*"
 	./technical/biomed/gb-2001-2-4-research0010.txt
@@ -168,6 +171,8 @@ I choose the `find` command.
 	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a 	given directory and the directories inside of it.
 
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
+
+
 	```bash
  	umark@Umars-Laptop docsearch % find ./technical -type f
 	./technical/plos/journal.pbio.0020187.txt
@@ -195,6 +200,7 @@ I choose the `find` command.
 
 	Output: (This is the entire output)
 
+
 	```bash
 	umark@Umars-Laptop docsearch % find ./technical -type d
 	./technical
@@ -221,6 +227,7 @@ I choose the `find` command.
 
 	Output: (The output was empty since there were no files modified within the past 7 days)
 
+
 	```bash
  	umark@Umars-Laptop docsearch % find ./technical -mtime -7
  	```
@@ -228,6 +235,7 @@ I choose the `find` command.
 	Example 2: `find ./technical -mtime +7`: This command will find all files in the `./technical` directory that were modified more than 7 days ago. This command is useful for recursively 	finding and listing all files modified before the past week inside of a given directory. 
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
+
 
 	```bash
  	umark@Umars-Laptop docsearch % find ./technical -mtime +7
@@ -255,11 +263,12 @@ I choose the `find` command.
 	
  	(Found by Googling "linux find command options")
 
-6. `-size` This option searches for files based on their size.
+7. `-size` This option searches for files based on their size.
    
 	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte. This command is useful for recursively finding 	and listing all the files inside of a given directory that are bigger than 1 Megabyte
 
 	Output: (The output is empty since there are no files inside the `./technical` directory that exceed 1 Megabyte in size)
+
 
  	```bash
   	umark@Umars-Laptop docsearch % find ./technical -size +1M
@@ -268,6 +277,7 @@ I choose the `find` command.
 	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.This command is useful for recursively finding and listing all the files 	inside of a given directory that are smaller than 1 Megabyte
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen))
+
 
 	```bash
  	umark@Umars-Laptop docsearch % find ./technical -size -1M
