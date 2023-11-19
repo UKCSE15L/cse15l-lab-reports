@@ -265,48 +265,48 @@ Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-th
    
 Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte. This command is useful for recursively finding and listing all the files inside of a given directory that are bigger than 1 Megabyte
 
-	Output: (The output is empty since there are no files inside the `./technical` directory that exceed 1 Megabyte in size)
+Output: (The output is empty since there are no files inside the `./technical` directory that exceed 1 Megabyte in size)
 
 
- 	```bash
-  	umark@Umars-Laptop docsearch % find ./technical -size +1M
-  	```
+ ```bash
+  umark@Umars-Laptop docsearch % find ./technical -size +1M
+  ```
 
-	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.This command is useful for recursively finding and listing all the files inside of a given directory that are smaller than 1 Megabyte
+Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.This command is useful for recursively finding and listing all the files inside of a given directory that are smaller than 1 Megabyte
 
-	Output: (This is just a sample of the output as the actual output is too big to fit on the screen))
+Output: (This is just a sample of the output as the actual output is too big to fit on the screen))
 
 
-	```bash
- 	umark@Umars-Laptop docsearch % find ./technical -size -1M
-	./technical/plos/pmed.0020102.txt
-	./technical/plos/journal.pbio.0020150.txt
-	./technical/plos/pmed.0020062.txt
-	./technical/plos/pmed.0020274.txt
-	./technical/plos/journal.pbio.0020232.txt
-	./technical/plos/journal.pbio.0030021.txt
-	./technical/plos/journal.pbio.0020224.txt
-	./technical/plos/pmed.0020048.txt
-	./technical/plos/pmed.0020060.txt
-	./technical/plos/pmed.0020074.txt
-	./technical/plos/journal.pbio.0020146.txt
-	./technical/plos/pmed.0020114.txt
-	./technical/plos/pmed.0010028.txt
-	./technical/plos/journal.pbio.0020350.txt
-	./technical/plos/journal.pbio.0020190.txt
-	./technical/plos/pmed.0010029.txt
-	./technical/plos/pmed.0020115.txt
-	./technical/plos/journal.pbio.0020147.txt
-	./technical/plos/pmed.0020075.txt
-	./technical/plos/pmed.0020061.txt
-	./technical/plos/pmed.0020210.txt
-	./technical/plos/pmed.0020238.txt
-	./technical/plos/journal.pbio.0030051.txt
-	./technical/plos/journal.pbio.0020068.txt
- 	```
+```bash
+umark@Umars-Laptop docsearch % find ./technical -size -1M
+./technical/plos/pmed.0020102.txt
+./technical/plos/journal.pbio.0020150.txt
+./technical/plos/pmed.0020062.txt
+./technical/plos/pmed.0020274.txt
+./technical/plos/journal.pbio.0020232.txt
+./technical/plos/journal.pbio.0030021.txt
+./technical/plos/journal.pbio.0020224.txt
+./technical/plos/pmed.0020048.txt
+./technical/plos/pmed.0020060.txt
+./technical/plos/pmed.0020074.txt
+./technical/plos/journal.pbio.0020146.txt
+./technical/plos/pmed.0020114.txt
+ ./technical/plos/pmed.0010028.txt
+./technical/plos/journal.pbio.0020350.txt
+./technical/plos/journal.pbio.0020190.txt
+./technical/plos/pmed.0010029.txt
+./technical/plos/pmed.0020115.txt
+./technical/plos/journal.pbio.0020147.txt
+./technical/plos/pmed.0020075.txt
+./technical/plos/pmed.0020061.txt
+./technical/plos/pmed.0020210.txt
+./technical/plos/pmed.0020238.txt
+./technical/plos/journal.pbio.0030051.txt
+./technical/plos/journal.pbio.0020068.txt
+ ```
+  
+ Second contains all the files and first contains none due to all the files in the `./technical` directory being smaller files.
 
- 	Second contains all the files and first contains none due to all the files in the `./technical` directory being smaller files.
+Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
-	Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
-
-	(Found by Googling "linux find command options")
+(Found by Googling "linux find command options")
