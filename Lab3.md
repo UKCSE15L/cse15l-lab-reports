@@ -259,7 +259,7 @@ First one contained no files since they were downloaded over a week ago, and the
 
 Source: [Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 	
- (Found by Googling "linux find command options")
+(Found by Googling "linux find command options")
 
 7. `-size` This option searches for files based on their size.
    
@@ -268,9 +268,9 @@ Example 1: `find ./technical -size +1M`. This command will find all files in the
 Output: (The output is empty since there are no files inside the `./technical` directory that exceed 1 Megabyte in size)
 
 
- ```bash
-  umark@Umars-Laptop docsearch % find ./technical -size +1M
-  ```
+```bash
+umark@Umars-Laptop docsearch % find ./technical -size +1M
+```
 
 Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.This command is useful for recursively finding and listing all the files inside of a given directory that are smaller than 1 Megabyte
 
