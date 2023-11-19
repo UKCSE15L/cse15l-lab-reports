@@ -113,9 +113,7 @@ I choose the `find` command.
 	./technical/plos/pmed.0020210.txt
 	./technical/plos/pmed.0020238.txt
 	./technical/plos/journal.pbio.0030051.txt
-	./technical/plos/journal.pbio.0020068.txt
-	./technical/plos/journal.pbio.0020054.txt
-	./technical/plos/journal.pbio.0020040.txt                                                                                                                                                                                                                            
+	./technical/plos/journal.pbio.0020068.txt                                                                                                                                                                                                                                                                                                                                                                                                            
   	```
 
 
