@@ -81,7 +81,7 @@ I choose the `find` command.
 
 1. `-name` This option searches for files by name
    
-	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory. This command is useful for quickly recursively locating and listing all 	the text files in a given directory. 
+	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory. This command is useful for quickly recursively locating and listing all the text files in a given directory. 
 
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
@@ -119,7 +119,7 @@ I choose the `find` command.
   	```
 
 
-	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name. This command is useful for recursively locating and listing all 		files in a given directory that contain a certain word or phrase 
+	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name. This command is useful for recursively locating and listing all files in a given directory that contain a certain word or phrase 
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
@@ -168,7 +168,7 @@ I choose the `find` command.
 
 3. `-type` This option allows you to choose the type of file to search for.
    
-	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a 	given directory and the directories inside of it.
+	Example 1: `find ./technical -type f`. This command will find all regular files in the `./technical` directory. This command is useful if you need to recursively list all the files in a given directory and the directories inside of it.
 
  	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
@@ -196,7 +196,7 @@ I choose the `find` command.
 	./technical/plos/pmed.0020115.txt
 	```
  
-	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory. This command is useful if you need to recursively list all the directories 	inside and including a given directory while ignoring the files inside of it.
+	Example 2: `find ./technical -type d`. This command will find all directories in the `./technical` directory. This command is useful if you need to recursively list all the directories inside and including a given directory while ignoring the files inside of it.
 
 	Output: (This is the entire output)
 
@@ -223,7 +223,7 @@ I choose the `find` command.
 
 5. `-mtime` This option finds files that were modified a certain amount of time ago.
    
-	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago. This command is useful for recursively 	finding and listing all files modified within the past week inside of a given directory. 
+	Example 1: `find ./technical -mtime -7`: This command will find all files in the `./technical` directory that were modified less than 7 days ago. This command is useful for recursively finding and listing all files modified within the past week inside of a given directory. 
 
 	Output: (The output was empty since there were no files modified within the past 7 days)
 
@@ -232,7 +232,7 @@ I choose the `find` command.
  	umark@Umars-Laptop docsearch % find ./technical -mtime -7
  	```
 
-	Example 2: `find ./technical -mtime +7`: This command will find all files in the `./technical` directory that were modified more than 7 days ago. This command is useful for recursively 	finding and listing all files modified before the past week inside of a given directory. 
+	Example 2: `find ./technical -mtime +7`: This command will find all files in the `./technical` directory that were modified more than 7 days ago. This command is useful for recursively finding and listing all files modified before the past week inside of a given directory. 
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
 
@@ -265,7 +265,7 @@ I choose the `find` command.
 
 7. `-size` This option searches for files based on their size.
    
-	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte. This command is useful for recursively finding 	and listing all the files inside of a given directory that are bigger than 1 Megabyte
+	Example 1: `find ./technical -size +1M`. This command will find all files in the `./technical` directory that are larger than 1 Megabyte. This command is useful for recursively finding and listing all the files inside of a given directory that are bigger than 1 Megabyte
 
 	Output: (The output is empty since there are no files inside the `./technical` directory that exceed 1 Megabyte in size)
 
@@ -274,7 +274,7 @@ I choose the `find` command.
   	umark@Umars-Laptop docsearch % find ./technical -size +1M
   	```
 
-	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.This command is useful for recursively finding and listing all the files 	inside of a given directory that are smaller than 1 Megabyte
+	Example 2: `find ./technical -size -1M`. This command will find all the files that are smaller than 1 Megabyte.This command is useful for recursively finding and listing all the files inside of a given directory that are smaller than 1 Megabyte
 
 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen))
 
