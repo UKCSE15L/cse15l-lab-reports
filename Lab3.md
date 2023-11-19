@@ -83,7 +83,7 @@ I choose the `find` command.
    
 	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory. This command is useful for quickly recursively locating and listing all the text files in a given directory. 
 
- 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen)
+ 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen UPDATE!!S)
 
 
  	```bash
