@@ -83,38 +83,37 @@ I choose the `find` command.
    
 	Example 1: `find ./technical -name "*.txt"`.  This command finds all `.txt` files in the `./technical` directory. This command is useful for quickly recursively locating and listing all the text files in a given directory. 
 
- 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen UPDATE!!4)                         
+ 	Output: (This is just a sample of the output as the actual output is too big to fit on the screen UPDATE!!4)
 
-
- 	```                                                                                                                                                                
-  	umark@Umars-Laptop docsearch % find ./technical -name "*.txt"
-	./technical/plos/journal.pbio.0020187.txt
-	./technical/plos/pmed.0020116.txt
-	./technical/plos/pmed.0020102.txt
-	./technical/plos/journal.pbio.0020150.txt
-	./technical/plos/pmed.0020062.txt
-	./technical/plos/pmed.0020274.txt
-	./technical/plos/journal.pbio.0020232.txt
-	./technical/plos/journal.pbio.0030021.txt
-	./technical/plos/journal.pbio.0020224.txt
-	./technical/plos/pmed.0020048.txt
-	./technical/plos/pmed.0020060.txt
-	./technical/plos/pmed.0020074.txt
-	./technical/plos/journal.pbio.0020146.txt
-	./technical/plos/pmed.0020114.txt
-	./technical/plos/pmed.0010028.txt
-	./technical/plos/journal.pbio.0020350.txt
-	./technical/plos/journal.pbio.0020190.txt
-	./technical/plos/pmed.0010029.txt
-	./technical/plos/pmed.0020115.txt
-	./technical/plos/journal.pbio.0020147.txt
-	./technical/plos/pmed.0020075.txt
-	./technical/plos/pmed.0020061.txt
-	./technical/plos/pmed.0020210.txt
-	./technical/plos/pmed.0020238.txt
-	./technical/plos/journal.pbio.0030051.txt
-	./technical/plos/journal.pbio.0020068.txt                                                                                                                                                                                                                                                                                                                                                                                                            
-  	```
+```                                                                                                                                                                
+umark@Umars-Laptop docsearch % find ./technical -name "*.txt"
+./technical/plos/journal.pbio.0020187.txt
+./technical/plos/pmed.0020116.txt
+./technical/plos/pmed.0020102.txt
+./technical/plos/journal.pbio.0020150.txt
+./technical/plos/pmed.0020062.txt
+./technical/plos/pmed.0020274.txt
+./technical/plos/journal.pbio.0020232.txt
+./technical/plos/journal.pbio.0030021.txt
+./technical/plos/journal.pbio.0020224.txt
+./technical/plos/pmed.0020048.txt
+./technical/plos/pmed.0020060.txt
+./technical/plos/pmed.0020074.txt
+./technical/plos/journal.pbio.0020146.txt
+./technical/plos/pmed.0020114.txt
+./technical/plos/pmed.0010028.txt
+./technical/plos/journal.pbio.0020350.txt
+./technical/plos/journal.pbio.0020190.txt
+./technical/plos/pmed.0010029.txt
+./technical/plos/pmed.0020115.txt
+./technical/plos/journal.pbio.0020147.txt
+./technical/plos/pmed.0020075.txt
+./technical/plos/pmed.0020061.txt
+./technical/plos/pmed.0020210.txt
+./technical/plos/pmed.0020238.txt
+./technical/plos/journal.pbio.0030051.txt
+./technical/plos/journal.pbio.0020068.txt
+```
 
 
 	Example 2: `find ./technical -name "*research*"`: This command finds all files that contain `"research"` in the name. This command is useful for recursively locating and listing all files in a given directory that contain a certain word or phrase 
