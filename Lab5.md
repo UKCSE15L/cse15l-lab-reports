@@ -6,4 +6,4 @@ Student: "Hello, I am a normal student writing an EdStem post as I need help deb
 
 
 
-TA (Teaching Assistant): "Yo what is up normal student, I am a totally normal TA or Teaching Assistant, have no fear as it is my duty to help you along the debugging process. Looking at the symptom you provided, it appears that there is not a problem in the `grade.sh` script at all."
+TA (Teaching Assistant): "Yo what is up normal student, I am a totally normal TA or Teaching Assistant, have no fear as it is my duty to help you along the debugging process. Looking at the symptom you provided, it appears that there is not a problem in the `grade.sh` script at all. It looks like the error may actually be in the `TestListExamples` class!"
