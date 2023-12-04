@@ -180,3 +180,6 @@ public class TestListExamples {
 }
 ```
 
+Here are the commands needed to trigger the bug:
+
+`bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-filename`
