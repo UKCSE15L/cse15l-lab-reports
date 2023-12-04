@@ -20,7 +20,7 @@ The File and Directory structure needed to run my `grade.sh` bash script is as f
 Here is the content of the `grade.sh` script:
 
 
-``` shell script
+``` bash
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
