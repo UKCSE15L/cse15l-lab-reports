@@ -180,6 +180,14 @@ public class TestListExamples {
 }
 ```
 
+Finally, here is the content of the `lib` directory:
+
+```
+hamcrest-core-1.3.jar
+junit-4.13.2.jar files
+```
+
+
 Here are the commands needed to trigger the bug:
 
 `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-filename`
