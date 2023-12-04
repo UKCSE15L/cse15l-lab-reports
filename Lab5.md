@@ -6,4 +6,4 @@ Student: "Hello, I am a normal student writing an EdStem post as I need help deb
 
 
 
-TA (Teaching Assistant): "Yo what is up normal student, I am a totally normal TA or Teaching Assistant, have no fear as it is my duty to help you along the debugging process. Looking at the symptom you provided, it appears that there is not a problem in the `grade.sh` script at all. It looks like the error may actually be in the `TestListExamples` class!"
+TA (Teaching Assistant): "Yo what is up normal student, I am a totally normal TA or Teaching Assistant, have no fear as it is my duty to help you along the debugging process. Looking at the symptom you provided, it appears that there is not a problem in the `grade.sh` script at all. It looks like the error may actually be in the `TestListExamples` class! If you look closely at the stack trace, you can clearly see that all of the errors are in lines that reference the `ListExamples` java file. If you look even closer, you may notice that the same error is being repeated, the symbol cannot be found."
