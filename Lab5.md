@@ -10,3 +10,6 @@ TA (Teaching Assistant): "Yo what is up normal student, I am a totally normal TA
 
 
 Student: "Wow, thank you for the response! After looking into the `TestListExamples` class, I realized that all of the test methods were hard-coded to work on the `ListExamples` java file, but there were no measures to account for if that file didn't exist or went by a different name. Including a screenshot below of some of the test methods so you can get a general idea."
+
+<img width="531" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/ff80153d-0e8e-4fb1-9d59-c2aa6ecd5df7">
+
