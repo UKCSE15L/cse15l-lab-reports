@@ -14,3 +14,5 @@ Student: "Wow, thank you for the response! After looking into the `TestListExamp
 <img width="531" alt="image" src="https://github.com/UKCSE15L/cse15l-lab-reports/assets/147003715/ff80153d-0e8e-4fb1-9d59-c2aa6ecd5df7">
 
 That concludes the EdStem portion of my lab report.
+
+The File and Directory structure needed to run 
