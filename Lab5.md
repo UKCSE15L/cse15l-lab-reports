@@ -15,4 +15,5 @@ Student: "Wow, thank you for the response! After looking into the `TestListExamp
 
 That concludes the EdStem portion of my lab report.
 
-The File and Directory structure needed to run 
+The File and Directory structure needed to run my `grade.sh` bash script is as follows: You need the `grade.sh` shell script as well as the `TestListExamples.java` file. The `grade.sh` script initializes all the other files you need
+
