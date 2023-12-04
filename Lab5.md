@@ -15,7 +15,7 @@ Student: "Wow, thank you for the response! After looking into the `TestListExamp
 
 That concludes the EdStem portion of my lab report.
 
-The File and Directory structure needed to run my `grade.sh` bash script is as follows: You need the `grade.sh` shell script as well as the `TestListExamples.java` file. The `grade.sh` script initializes all the other files you need.
+The File and Directory structure needed to run my `grade.sh` bash script is as follows: You need the `grade.sh` shell script as well as the `TestListExamples.java` file and the `lib` directory. The `grade.sh` script initializes all the other files you need.
 
 Here is the content of the `grade.sh` script:
 
@@ -183,3 +183,7 @@ public class TestListExamples {
 Here are the commands needed to trigger the bug:
 
 `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-filename`
+
+It runs the `grade.sh` with the link to the repository as the argument.
+
+In order to fix the bug, we must 
