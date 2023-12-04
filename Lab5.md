@@ -15,5 +15,168 @@ Student: "Wow, thank you for the response! After looking into the `TestListExamp
 
 That concludes the EdStem portion of my lab report.
 
-The File and Directory structure needed to run my `grade.sh` bash script is as follows: You need the `grade.sh` shell script as well as the `TestListExamples.java` file. The `grade.sh` script initializes all the other files you need
+The File and Directory structure needed to run my `grade.sh` bash script is as follows: You need the `grade.sh` shell script as well as the `TestListExamples.java` file. The `grade.sh` script initializes all the other files you need.
+
+Here is the content of the `grade.sh` script:
+
+
+``` shell script
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+
+rm -rf student-submission
+rm -rf grading-area
+
+mkdir grading-area
+
+git clone $1 student-submission 
+echo 'Finished cloning'
+
+
+file=`(find ./student-submission -name "*.java")`
+
+if ! [[( -e $file )]]
+then   
+echo "File does not exist"
+exit
+fi
+
+echo $file
+cp -r $file grading-area
+cp TestListExamples.java grading-area
+cp -r lib grading-area
+cd grading-area
+
+echo 'Finished copying'
+
+javac -cp $CPATH *.java
+
+if [[( $? -ne 0 )]]
+then   
+echo "Compile Error - please see error message and fix."
+exit
+fi
+
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > tests.txt
+
+echo "Tests ran"
+
+allPassed=`(grep "OK" tests.txt | wc -l)`
+
+grep ") t" tests.txt > failedtests.txt
+
+failurecount=$(wc -l < failedtests.txt)
+failurecount=$((9-failurecount))
+
+if [[ $allPassed -ne 0 ]]
+then
+echo "9/9 Tests Passed! Congratulations!"
+else
+echo "Failed Tests:"
+cat failedtests.txt
+echo "You passed $failurecount/9 tests"
+fi
+```
+
+
+Here is the content of the `TestListExample.java` file:
+
+``` java
+import static org.junit.Assert.*;
+import org.junit.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class IsMoon implements StringChecker {
+  public boolean checkString(String s) {
+    return s.equalsIgnoreCase("moon");
+  }
+}
+
+public class TestListExamples {
+  
+  @Test(timeout = 500)
+  public void testMergeRightEnd() {
+    List<String> left = Arrays.asList("a", "b", "c");
+    List<String> right = Arrays.asList("a", "d");
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "a", "b", "c", "d");
+    assertEquals(expected, merged);
+  }
+
+  @Test(timeout = 500)
+  public void testMergeLeftEnd() {
+    List<String> left = Arrays.asList("a", "d");
+    List<String> right = Arrays.asList("a", "b", "c");
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "a", "b", "c", "d");
+    assertEquals(expected, merged);
+  }
+
+  @Test(timeout = 500)
+  public void testMergeEmptyLeft() {
+    List<String> left = new ArrayList<>();
+    List<String> right = Arrays.asList("a", "b", "c");
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "b", "c");
+    assertEquals(expected, merged);
+  }
+
+  @Test(timeout = 500)
+  public void testMergeEmptyRight() {
+    List<String> left = Arrays.asList("a", "b", "c");
+    List<String> right = new ArrayList<>();
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "b", "c");
+    assertEquals(expected, merged);
+  }
+
+  @Test(timeout = 500)
+  public void testMergeBothEmpty() {
+    List<String> left = new ArrayList<>();
+    List<String> right = new ArrayList<>();
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = new ArrayList<>();
+    assertEquals(expected, merged);
+  }
+
+  @Test(timeout = 500)
+  public void testFilter() {
+    List<String> filter = Arrays.asList("Moon", "M0on");
+    StringChecker moonChecker = new IsMoon();
+    List<String> filtered = ListExamples.filter(filter, moonChecker);
+    List<String> expected = Arrays.asList("Moon");
+    assertEquals(expected, filtered);
+  }
+
+  @Test(timeout = 500)
+  public void testFilterWithMultipleMoon() {
+    List<String> filter = Arrays.asList("Moon", "M0on", "Moon");
+    StringChecker moonChecker = new IsMoon();
+    List<String> filtered = ListExamples.filter(filter, moonChecker);
+    List<String> expected = Arrays.asList("Moon", "Moon");
+    assertEquals(expected, filtered);
+  }
+
+  @Test(timeout = 500)
+  public void testFilterWithNoMoon() {
+    List<String> filter = Arrays.asList("M0on", "M00n");
+    StringChecker moonChecker = new IsMoon();
+    List<String> filtered = ListExamples.filter(filter, moonChecker);
+    List<String> expected = new ArrayList<>();
+    assertEquals(expected, filtered);
+  }
+
+  @Test(timeout = 500)
+  public void testFilterWithEmptyList() {
+    List<String> filter = new ArrayList<>();
+    StringChecker moonChecker = new IsMoon();
+    List<String> filtered = ListExamples.filter(filter, moonChecker);
+    List<String> expected = new ArrayList<>();
+    assertEquals(expected, filtered);
+  }
+
+}
+```
 
