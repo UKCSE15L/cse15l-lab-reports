@@ -194,4 +194,4 @@ Here are the commands needed to trigger the bug:
 
 It runs the `grade.sh` with the link to the repository as the argument.
 
-In order to fix the bug, we must 
+In order to fix the bug, we must pass the name of the .java file in the `student-submission` file as an argument into the `TestListExamples.java` file. We must edit the `TestListExamples.java` file so that it can take a file name as the argument.  
