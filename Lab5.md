@@ -197,4 +197,9 @@ It runs the `grade.sh` with the link to the repository as the argument.
 In order to fix the bug, we must pass the name of the .java file in the `student-submission` file as an argument into the `TestListExamples.java` file. We must edit the `TestListExamples.java` file so that it can take a file name as the argument and run the tests accordingly. We basically need to edit the `TestListExamples.java` so that it calls the methods in the file passed in the argument rather than just hardcoding the tests to only work for a specific file name.
 
 
+**Part 2**
+
+I actually really enjoyed learning about VIM and its various commands and uses. I just thought that it was super cool that you could view and edit entire files from within the terminal itself. While it was somewhat annoying and kind of difficult to get the hang of, I do think that it has a ton of uses that make it all worth learning. 
+
+
 
